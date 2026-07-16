@@ -4,3 +4,6 @@ All materials (except software) for the Track 2 Advanced Functional Genomics ses
 
 Data and Code used in Workshop
 https://iastate.box.com/s/1jcek1gwvcrrxwmdxacodlo5w92dkcvm 
+
+
+Reference Slides to follow the tutorial are provided above.

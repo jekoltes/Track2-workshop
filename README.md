@@ -23,6 +23,6 @@ https://beta.ensembl.org/
 Ensembl-beta: https://beta.ensembl.org/ 
 
 Ensembl-beta tutorial information
-Video: https://www.youtube.com/watch?v=K7cmwK1ODnc 
-Slides:https://drive.google.com/file/d/1j1_sbkULCDnlpaeW6jhaDFpdcdt59jHd/view
-<img width="468" height="66" alt="image" src="https://github.com/user-attachments/assets/b65e3a30-1769-4105-a784-dcc04a5eff5d" />
+Tutorial Video: https://www.youtube.com/watch?v=K7cmwK1ODnc 
+Tutorial Slides:https://drive.google.com/file/d/1j1_sbkULCDnlpaeW6jhaDFpdcdt59jHd/view
+

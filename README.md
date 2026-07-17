@@ -9,6 +9,7 @@ If you are using NSF ACCESS computing for tutorials, please sign up for an accou
 
 Step 2: 
 Download Data and Code used in Workshop: https://iastate.box.com/s/1jcek1gwvcrrxwmdxacodlo5w92dkcvm 
+Please note: you should not have to place these data on the HPC.  Once you are logged into the HPC account on Bridges2, the data is located in storage on the Ocean server here: /ocean/projects/bio260049p/shared
 
 Step 3:
 Download reference slides to follow the tutorial are provided above.

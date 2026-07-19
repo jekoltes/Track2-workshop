@@ -78,19 +78,36 @@ The numbers above correspond to the session order in the class.  We will start w
     Contains 2 folders: 01_vep  02_integ_example
 
    /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/04_integration/01_vep 
-    1- contains 7 files: sus_scrofa_1000_2.vep; sus_scrofa_1000.vcf; sus_scrofa_1000.vep.vcf_summary.html; vep_workshop.sh
-                        sus_scrofa_1000_2.vep_summary.html;  sus_scrofa_1000.vep.vcf;  sus_scrofa.vcf
+    1- contains 7 files: 
+      sus_scrofa_1000_2.vep
+      sus_scrofa_1000.vcf
+      sus_scrofa_1000.vep.vcf_summary.html
+      vep_workshop.sh
+      sus_scrofa_1000_2.vep_summary.html
+      sus_scrofa_1000.vep.vcf
+      sus_scrofa.vcf
 
     #   /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/04_integration/02_integ_example
-    2- contains 4 files: Animal_QTLdb_release59_pigSS11.bed; chr15_longissimus_depth_QTL_cCRE_summary.tsv
-                         Animal_QTLdb_release59_pigSS11.gff; chr7_longissimus_depth_QTL_cCRE_summary.tsv
+    2- contains 4 files: 
+      Animal_QTLdb_release59_pigSS11.bed
+      chr15_longissimus_depth_QTL_cCRE_summary.tsv
+      Animal_QTLdb_release59_pigSS11.gff
+      chr7_longissimus_depth_QTL_cCRE_summary.tsv
                          
 # 05_atac
     /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/05_atac/
     
     Contains 16 items: 8 files + 8 folders
     
-    Files = shell scripts: xx-02-JOB-trim.sh  xx-05-JOB-rem.sh   xx-08-JOB-filt.sh   xx-10-JOB-peak.sh xx-01-JOB-qc.sh    xx-04-JOB-sort.sh                              xx-07-JOB-dedup.sh  xx-10-JOB-peak-fulldata.sh
+    Files = shell scripts: 
+    xx-02-JOB-trim.sh  
+    xx-05-JOB-rem.sh   
+    xx-08-JOB-filt.sh   
+    xx-10-JOB-peak.sh 
+    xx-01-JOB-qc.sh    
+    xx-04-JOB-sort.sh
+    xx-07-JOB-dedup.sh  
+    xx-10-JOB-peak-fulldata.sh
     
     Folders within 05_atac/:
     /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/05_atac/00_ref

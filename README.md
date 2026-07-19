@@ -4,7 +4,7 @@ https://www.asas.org/meetings/annual-2026/draft-schedule-of-events-and-scientifi
 
 Please note, this is not a formal GitHub repository that you would download, but itstead is serving as a place to organize and share information in a simple way.  If you are participating in the tutorial, there are 2 files on this page that you should download: PPTX slides and data/ scripts.  A course agenda is provided as a 3rd file to download if you have not received it previously.  The steps below are how to get started in preparing for this workshop following the instructions also sent to participants via email.
 
-# Setting up your account, finding the data, and finding the slides used during the in-person workshop
+# Items to do before the class day: setting up your account, finding the data, and finding the slides used during the in-person workshop
 # Step 1:
 If you are using NSF ACCESS computing for tutorials, please sign up for an account here: https://operations.access-ci.org/identity/new-user   After you receive an account, send it to the course coordinator and after your account is active (you will receive an email to create a password), make sure you are able to login on the HPC resource (see the course reference PPTX slides above).
 
@@ -16,9 +16,11 @@ More information on the file contents and how to navigate these folders is provi
 # Step 3:
 Download reference slides to follow the tutorial here: https://github.com/jekoltes/Track2-workshop/commit/90661248ecae7cd631de3f9f35f37282695d30ad 
 
+# Step 4: 
+Make sure you have installed the required software onto your laptop based on the guidance provided: https://github.com/jekoltes/Track2-workshop/commit/85bd5feaea27a9ec95caeac56a86634d7c8460e7 
 
 
-# Agenda for July 19 Workshop: 
+# Agenda for the in-person Workshop Day: 
 Please find a Word document with the general agenda of topics covered in the workshop here: https://github.com/jekoltes/Track2-workshop/commit/f35f5f10328610907ee8091dc1cd906015e30d10.
 
 

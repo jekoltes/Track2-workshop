@@ -6,6 +6,16 @@ https://www.asas.org/meetings/annual-2026/draft-schedule-of-events-and-scientifi
 Please note, this is not a formal GitHub repository that you would download, but itstead is serving as a place to organize and share information in a simple way.  If you are participating in the tutorial, there are 2 files on this page that you should download: PPTX slides and data/ scripts.  A course agenda is provided as a 3rd file to download if you have not received it previously.  The steps below are how to get started in preparing for this workshop following the instructions also sent to participants via email.
 
 
+# ** NEW ** Download afternoon data files
+Individual files for today are now available here to ensure they are smaller and easier to download on the conference center internet network.  https://iastate.box.com/s/6rvouk61xey004m8x4pe112ojx5mmjf8
+
+For the afternoon session PLEASE ONLY download the 04_integration.tar.gz file.  You may download the other files later to work with at home.  Please note, these files are the SAME as those in the data file provided below in Step 2.  If you already have those files, you can access the data there.
+
+To use these files on your machine, you will need to open your terminal software on your laptop.  In the terminal software, enter this code
+> tar xzvf 04_integration.tar.gz
+
+Then you will have access to the files you need.  We will NOT do the ATACseq/ChIPseq pipeline due to internet problems.  All of the code and instructions you need to run this tutorial are provided in your HPC folder as described below and in the slides.  Please try these later today in your hotel.
+
 
 # Items to do before the class day to prepare for the workshop
 # Step 1: Setting up your HPC account

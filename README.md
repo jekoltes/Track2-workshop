@@ -25,11 +25,6 @@ Additional sofware used in the HPC section of the course are also listed in this
 
 
 
-# Agenda for the in-person Workshop Day: 
-Please find a Word document with the general agenda of topics covered in the workshop here: https://github.com/jekoltes/Track2-workshop/commit/f35f5f10328610907ee8091dc1cd906015e30d10.
-
-
-
 # Background information on the new Ensembl-beta web browswer (replacing the current browser in August 2026)
 Website: https://beta.ensembl.org/
 
@@ -41,8 +36,14 @@ Note, additional information is provided in the course PPTX presentation file.
 
 
 
-# Help navigating to find data and scripts on Bridges2
-Once logged into Bridges2, follow these commands
+
+# Agenda for the in-person Workshop Day: 
+Please find a Word document with the general agenda of topics covered in the workshop here: https://github.com/jekoltes/Track2-workshop/commit/f35f5f10328610907ee8091dc1cd906015e30d10.
+
+
+
+# Help during the in-person class:  Navigating to find data and scripts on Bridges2 for the tutorials
+Once logged into Bridges2, follow the commands in steps 1 and 2 below to find the data folders.  Below these commands are a description of the files within each folder as well as paths you can copy and paste on class day to help you more quickly navigate to the data during the in-class tutorials.
 
 # Step 1: move to the data and code folder
 cd /ocean/projects/bio260049p/shared
@@ -100,6 +101,64 @@ The numbers above correspond to the session order in the class.  We will start w
     /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/05_atac/07_readgroup
     /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/05_atac/09_filtered
     /ocean/projects/bio260049p/shared/ASAS_workshop/data/workshop/05_atac/10_shifted            
+
+
+
+
+# Tip for running Job scripts on the SLURM scheduler within the HPC environment
+There are several different text editors that can be used to alter files.  Here I will describe how to update a file using nano.
+
+Job scripts: .sh files    (please note, these are sometimes named .job if you prefer for organizational purposes)
+
+To modify a file, for example xx-01-JOB-qc.sh 
+> nano xx-01-JOB-qc.sh
+
+#Here is what the file should look like
+
+#!/bin/bash
+#SBATCH --job-name=workshop_JOB      # change the name as you prefer
+#SBATCH --partition=RM-shared        # do not change     
+#SBATCH --account=bio260049p         # do not change   
+#SBATCH --time=00:10:00              # do not change - normally, you could.  This is the expected run time of the job.
+#SBATCH --ntasks=1                   # do not change - normally, you could.  This is the # CPU used.
+#SBATCH --cpus-per-task=1            # do not change 
+#SBATCH --output=02_qc/JOB_workshop_%j.out    #output file name, automatically configured.  Note, here j should be your job-name.
+#SBATCH --error=02_qc/JOB_workshop_%j.err     #error file name, automatically configured (as described above). 
+
+set -euo pipefail
+
+cd /jet/home/limb/workshop/05_atac                   #CHANGE- use your username here where "limb" is listed
+
+module load FastQC
+
+fastqc \
+    01_raw_data/workshop_R1.fastq.gz \
+    01_raw_data/workshop_R2.fastq.gz \
+    -o 02_qc
+
+To save the chages, type: control+x (command to start the proceedure to close the file), 
+                          control+y (saves file name)
+                          type: y
+                          At this point, you may change the file name, or hit enter to close and save the file as is without a name change.
+
+
+
+
+# how to submit a job file
+Note: you need to be in the folder where the job script (.sh in this tutorial) is located
+Type
+> sbatch  xx-01-JOB-qc.sh
+
+To ensure the file is running, use this command:
+> squeue
+
+Better yet, jump to only your job:
+> squeue -u userName
+
+If you want to actively monitor a short job, you can use this command (note to leave this command, you must type: Ctrl+C)
+> watch squeue -u userName
+
+
 
 
 

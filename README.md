@@ -134,13 +134,13 @@ To modify a file, for example xx-01-JOB-qc.sh
 
 #!/bin/bash
 #SBATCH --job-name=workshop_JOB      # change the name as you prefer
-#SBATCH --partition=RM-shared        # do not change     
-#SBATCH --account=bio260049p         # do not change   
-#SBATCH --time=00:10:00              # do not change - normally, you could.  This is the expected run time of the job.
-#SBATCH --ntasks=1                   # do not change - normally, you could.  This is the # CPU used.
-#SBATCH --cpus-per-task=1            # do not change 
-#SBATCH --output=02_qc/JOB_workshop_%j.out    #output file name, automatically configured.  Note, here j should be your job-name.
-#SBATCH --error=02_qc/JOB_workshop_%j.err     #error file name, automatically configured (as described above). 
+#SBATCH --partition=RM-shared        # do not change - queue used  
+#SBATCH --account=bio260049p         # do not change - account
+#SBATCH --time=00:10:00              # do not change - run time
+#SBATCH --ntasks=1                   # do not change 
+#SBATCH --cpus-per-task=1            # do not change - CPU number used
+#SBATCH --output=02_qc/JOB_workshop_%j.out    #output file name, automatically configured.  Note, here j should be your job-name
+#SBATCH --error=02_qc/JOB_workshop_%j.err     #error file name, automatically configured (as described above)
 
 set -euo pipefail
 
@@ -161,7 +161,7 @@ To save the chages, type: control+x (command to start the proceedure to close th
 
 
 
-# how to submit a job file
+# How to submit a job file
 Note: you need to be in the folder where the job script (.sh in this tutorial) is located
 Type
 > sbatch  xx-01-JOB-qc.sh

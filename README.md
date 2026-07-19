@@ -13,7 +13,7 @@ Download Data and Code used in Workshop: https://iastate.box.com/s/1jcek1gwvcrrx
 Please note: you should not have to place these data on the HPC.  Once you are logged into the HPC account on Bridges2, the data is located in storage on the Ocean server here: /ocean/projects/bio260049p/shared
 
 # Step 3:
-Download reference slides to follow the tutorial are provided above.
+Download reference slides to follow the tutorial here: https://github.com/jekoltes/Track2-workshop/commit/90661248ecae7cd631de3f9f35f37282695d30ad 
 
 
 

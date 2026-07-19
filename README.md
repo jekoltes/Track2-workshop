@@ -46,13 +46,13 @@ Please find a Word document with the general agenda of topics covered in the wor
 Once logged into Bridges2, follow the commands in steps 1 and 2 below to find the data folders.  Below these commands are a description of the files within each folder as well as paths you can copy and paste on class day to help you more quickly navigate to the data during the in-class tutorials.
 
 # Step 1: move to the data and code folder
-cd /ocean/projects/bio260049p/shared
+> cd /ocean/projects/bio260049p/shared
 
 Note: If the data folder is still as a .tar.gz, you will need to uncompress it like this:
-tar -xzvf workshop.tar.gz
+> tar -xzvf workshop.tar.gz
 
 # Step 2: move to the data folder
-cd ASAS_workshop/data/workshop
+> cd ASAS_workshop/data/workshop
 
 At this step, you should now see the following when you use the ls command:
 [userName@bridges2-login012 workshop]$ ls

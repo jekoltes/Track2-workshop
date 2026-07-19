@@ -144,7 +144,8 @@ To modify a file, for example xx-01-JOB-qc.sh
 
 set -euo pipefail
 
-cd /jet/home/limb/workshop/05_atac                   #CHANGE- use your username here where "limb" is listed
+# CHANGE- use your username here where "limb" is listed
+cd /jet/home/limb/workshop/05_atac                   
 
 module load FastQC
 

@@ -17,8 +17,8 @@ Download reference slides to follow the tutorial are provided above.
 
 
 
-# Agenda for July 19 Workshop:
-Please find a Word document with the general agenda of topics covered in the workshop above.
+# Agenda for July 19 Workshop: 
+Please find a Word document with the general agenda of topics covered in the workshop here: https://github.com/jekoltes/Track2-workshop/commit/f35f5f10328610907ee8091dc1cd906015e30d10.
 
 
 # Background information on the new Ensembl-beta web browswer (replacing the current browser in August 2026)

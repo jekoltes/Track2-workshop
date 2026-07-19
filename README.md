@@ -1,24 +1,27 @@
 # Track2-workshop- Advanced Functional Genomic applications of livestock regulatory elements
+# General Information
 All materials (except software) for the Track 2 Advanced Functional Genomics session in the Genomics for Animal Sciences – Summer Workshop host by NRSP8 and the USDA-NIFA Animal Genomics Collective RCN in Madison, WI in July 2026.
 https://www.asas.org/meetings/annual-2026/draft-schedule-of-events-and-scientific-program 
 
 Please note, this is not a formal GitHub repository that you would download, but itstead is serving as a place to organize and share information in a simple way.  If you are participating in the tutorial, there are 2 files on this page that you should download: PPTX slides and data/ scripts.  A course agenda is provided as a 3rd file to download if you have not received it previously.  The steps below are how to get started in preparing for this workshop following the instructions also sent to participants via email.
 
 
-# Items to do before the class day: setting up your account, finding the data, and finding the slides used during the in-person workshop
-# Step 1:
+
+# Items to do before the class day to prepare for the workshop
+# Step 1: Setting up your HPC account
 If you are using NSF ACCESS computing for tutorials, please sign up for an account here: https://operations.access-ci.org/identity/new-user   After you receive an account, send it to the course coordinator and after your account is active (you will receive an email to create a password), make sure you are able to login on the HPC resource (see the course reference PPTX slides above).
 
-# Step 2: 
+# Step 2: Finding the data and code
 Download Data and Code used in Workshop: https://iastate.box.com/s/1jcek1gwvcrrxwmdxacodlo5w92dkcvm 
 Please note: you should not have to place these data on the HPC.  Once you are logged into the HPC account on Bridges2, the data is located in storage on the Ocean server here: /ocean/projects/bio260049p/shared
 More information on the file contents and how to navigate these folders is provided below.
 
-# Step 3:
+# Step 3: Download the class slides to brush up before the class day
 Download reference slides to follow the tutorial here: https://github.com/jekoltes/Track2-workshop/commit/90661248ecae7cd631de3f9f35f37282695d30ad 
 
-# Step 4: 
+# Step 4: Ensure you have installed all required software on the laptop you will bring to class
 Make sure you have installed the required software onto your laptop based on the guidance provided: https://github.com/jekoltes/Track2-workshop/commit/85bd5feaea27a9ec95caeac56a86634d7c8460e7 
+Additional sofware used in the HPC section of the course are also listed in this document if you do not have access to HPC resources.
 
 
 

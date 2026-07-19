@@ -133,14 +133,14 @@ To modify a file, for example xx-01-JOB-qc.sh
 #Here is what the file should look like
 
 #!/bin/bash
-#SBATCH --job-name=workshop_JOB      # change the name as you prefer
-#SBATCH --partition=RM-shared        # do not change - queue used  
-#SBATCH --account=bio260049p         # do not change - account
-#SBATCH --time=00:10:00              # do not change - run time
-#SBATCH --ntasks=1                   # do not change 
-#SBATCH --cpus-per-task=1            # do not change - CPU number used
-#SBATCH --output=02_qc/JOB_workshop_%j.out    #output file name, automatically configured.  Note, here j should be your job-name
-#SBATCH --error=02_qc/JOB_workshop_%j.err     #error file name, automatically configured (as described above)
+#SBATCH --job-name=workshop_JOB      
+#SBATCH --partition=RM-shared        
+#SBATCH --account=bio260049p         
+#SBATCH --time=00:10:00              
+#SBATCH --ntasks=1                   
+#SBATCH --cpus-per-task=1            
+#SBATCH --output=02_qc/JOB_workshop_%j.out    
+#SBATCH --error=02_qc/JOB_workshop_%j.err    
 
 set -euo pipefail
 
